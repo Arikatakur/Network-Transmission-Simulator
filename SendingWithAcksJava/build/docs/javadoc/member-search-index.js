@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"il.ac.kinneret.mjmay.sendingacks","c":"Main","l":"Main()","u":"%3Cinit%3E()"},{"p":"il.ac.kinneret.mjmay.sendingacks","c":"Main","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();

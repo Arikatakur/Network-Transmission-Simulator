@@ -1,0 +1,65 @@
+Assignment 2
+Section 3 Questions
+Introduction to Computer Networks
+Semester 1 5784
+
+Student Names
+Mohamed khalil
+Saleem yosef
+----------------------------------------------
+Experiment 1: Small packets
+
+Packet size: 100B
+Measured ACK size: 60B
+Measured RTT: 1ms
+
+Measured actual sending time: 2.073 seconds
+Calculated theoretical sending time: 2.985 seconds 
+
+Q1: Are the actual and calculated sending times close or identical?
+
+No, the actual and calculated sending times is alot different.
+
+Q2: If they are not identical or close, explain why they differ.
+
+The calculated theoretical time is so much higher because it assumes every packet waits for an ACKs
+before sending the next. With a high RTT (63 ms) and Stop-and-Wait protocol, the overhead adds up for 2,985 packets.
+In practice, optimizations like pipelining, reduced RTT influence, and hardware level enhancements reduce the actual sending time.
+
+----------------------------------------------
+Experiment 2: Medium packets
+
+Packet size: 1KB
+Measured ACK size: 60B
+Measured RTT: 1ms
+
+Measured actual sending time: 0.292376 s
+Calculated theoretical sending time: 0.2924seconds
+
+Q1: Are the actual and calculated sending times close or identical?
+
+Yes, the actual and calculated sending times are very close.
+
+
+Q2: If they are not identical or close, explain why they differ.
+
+The initial theoretical calculation assumed a strict Stop-and-Wait protocol with no pipelining, resulting in 
+an exaggerated RTT overhead for 292 packets. By accounting for practical network behavior the adjusted theoretical time of 0.2924seconds is closer to real-world
+conditions  such as hardware acceleration and network stack efficiencies.
+----------------------------------------------
+Experiment 3: Giant packets
+
+Packet size: 10KB
+Measured ACK size: 60B
+Measured RTT: 1ms
+
+Measured actual sending time: 0.030367seconds
+Calculated theoretical sending time: 0.03299seconds
+
+Q1: Are the actual and calculated sending times close or identical?
+
+Yes, the actual and calculated sending times are very close.
+
+Q2: If they are not identical or close, explain why they differ.
+
+The slight difference is due to real-world factors such as network hardware processing times and potential pipelining optimizations, which slightly reduce the actual sending time compared to the theoretical calculation.

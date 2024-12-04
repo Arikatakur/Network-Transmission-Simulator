@@ -1,0 +1,7 @@
+-classpath '/home/saleem-ubuntu/osSystem/softwareNetworkCourse/5785-networks-ass2-team/UdpStopWaitClient/build/classes/java/main:/home/saleem-ubuntu/osSystem/softwareNetworkCourse/5785-networks-ass2-team/UdpStopWaitClient/build/resources/main'
+-d '/home/saleem-ubuntu/osSystem/softwareNetworkCourse/5785-networks-ass2-team/UdpStopWaitClient/build/docs/javadoc'
+-doctitle 'UdpStopWaitClient 5784 API'
+-notimestamp 
+-quiet 
+-windowtitle 'UdpStopWaitClient 5784 API'
+'/home/saleem-ubuntu/osSystem/softwareNetworkCourse/5785-networks-ass2-team/UdpStopWaitClient/src/main/java/il/ac/kinneret/mjmay/StopWaitClient.java'

@@ -1,0 +1,7 @@
+-classpath '/home/saleem-ubuntu/osSystem/softwareNetworkCourse/5785-networks-ass2-team/SendingWithAcksJava/build/classes/java/main:/home/saleem-ubuntu/osSystem/softwareNetworkCourse/5785-networks-ass2-team/SendingWithAcksJava/build/resources/main'
+-d '/home/saleem-ubuntu/osSystem/softwareNetworkCourse/5785-networks-ass2-team/SendingWithAcksJava/build/docs/javadoc'
+-doctitle 'SendingWithAcksJava 5784 API'
+-notimestamp 
+-quiet 
+-windowtitle 'SendingWithAcksJava 5784 API'
+'/home/saleem-ubuntu/osSystem/softwareNetworkCourse/5785-networks-ass2-team/SendingWithAcksJava/src/main/java/il/ac/kinneret/mjmay/sendingacks/Main.java'

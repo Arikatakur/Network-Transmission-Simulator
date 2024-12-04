@@ -1,0 +1,10 @@
+echo Test 15 - Check incorrect client parameters
+java -jar UdpStopWaitClient-5784.jar -dest=localhost -port=5 -packetsize=2048 -f=file2.txt > client-fail-results
+java -jar UdpStopWaitClient-5784.jar -dest=1.2.3.4.5 -port=5003 -packetsize=2048 -f=file2.txt >> client-fail-results
+java -jar UdpStopWaitClient-5784.jar -dest=localhost -port=5003 -packetsize=5.6 -f=file2.txt >> client-fail-results
+
+echo Test 16 - Check missing client parameters
+java -jar UdpStopWaitClient-5784.jar -dest=localhost -port=5003 -packetsize=2048 >> client-fail-results
+java -jar UdpStopWaitClient-5784.jar -port=5003 -packetsize=2048 -f=file2.txt >> client-fail-results
+java -jar UdpStopWaitClient-5784.jar -dest=localhost -packetsize=2048 -f=file2.txt >> client-fail-results
+java -jar UdpStopWaitClient-5784.jar -dest=localhost -port=5003 -f=file2.txt >> client-fail-results

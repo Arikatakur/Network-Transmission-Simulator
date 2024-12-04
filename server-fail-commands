@@ -1,0 +1,10 @@
+echo Test 13 - Check incorrect server parameters
+java -jar UdpStopWaitServer-5784.jar -ip=0.0.0.0 -port=5 -outfile=outfiles/Test12-file2.txt >> server-fail-results
+java -jar UdpStopWaitServer-5784.jar -ip=0.0.0.0 -port=200000 -outfile=outfiles/Test12-file2.txt >> server-fail-results
+java -jar UdpStopWaitServer-5784.jar -ip=1.2.3.4.5 -port=5000 -outfile=outfiles/Test12-file2.txt >> server-fail-results
+java -jar UdpStopWaitServer-5784.jar -ip=0.0.0.0 -port=5.6 -outfile=outfiles/Test12-file2.txt >> server-fail-results
+
+echo Test 14 - Check missing server parameters
+java -jar UdpStopWaitServer-5784.jar -ip=0.0.0.0 -outfile=outfiles/Test12-file2.txt >> server-fail-results
+java -jar UdpStopWaitServer-5784.jar -port=123 -outfile=outfiles/Test12-file2.txt >> server-fail-results
+java -jar UdpStopWaitServer-5784.jar -ip=0.0.0.0 -port=123 >> server-fail-results

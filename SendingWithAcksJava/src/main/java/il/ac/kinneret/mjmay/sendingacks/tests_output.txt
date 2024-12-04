@@ -1,0 +1,48 @@
+Running test: -filesize=40B -packetsize=10B -acksize=10B -bandwidth=100mbps -rtt=52ms
+PASS: Expected 0.208006 got 0.208006
+---------------------------
+Running test: -filesize=10KB -packetsize=10B -acksize=10B -bandwidth=100mbps -rtt=51ms
+PASS: Expected 52.225638 got 52.225638
+---------------------------
+Running test: -filesize=23MB -packetsize=10B -acksize=10B -bandwidth=100mbps -rtt=53ms
+PASS: Expected 127825.283760 got 127825.283760
+---------------------------
+Running test: -filesize=45.5GB -packetsize=10B -acksize=10B -bandwidth=100mbps -rtt=154ms
+PASS: Expected 752378713.040479 got 752378713.040480
+---------------------------
+Running test: -filesize=40B -packetsize=10B -acksize=10B -bandwidth=100mbps -rtt=45ms
+PASS: Expected 0.180006 got 0.180006
+---------------------------
+Running test: -filesize=10KB -packetsize=1KB -acksize=10B -bandwidth=100mbps -rtt=32ms
+PASS: Expected 0.320827 got 0.320827
+---------------------------
+Running test: -filesize=23MB -packetsize=52B -acksize=10B -bandwidth=100mbps -rtt=200ms
+PASS: Expected 92761.100415 got 92761.100418
+---------------------------
+Running test: -filesize=45.5GB -packetsize=0.1KB -acksize=10B -bandwidth=100mbps -rtt=16ms
+PASS: Expected 7637923.381903 got 7637923.381903
+---------------------------
+Running test: -filesize=40B -packetsize=10B -acksize=10B -bandwidth=100mbps -rtt=11ms
+PASS: Expected 0.044006 got 0.044006
+---------------------------
+Running test: -filesize=10KB -packetsize=1KB -acksize=10B -bandwidth=100Gbps -rtt=89ms
+PASS: Expected 0.890001 got 0.890001
+---------------------------
+Running test: -filesize=23MB -packetsize=150B -acksize=10B -bandwidth=10.5Gbps -rtt=189ms
+PASS: Expected 30387.817600 got 30387.817600
+---------------------------
+Running test: -filesize=45.5GB -packetsize=0.1KB -acksize=10B -bandwidth=0.5Gbps -rtt=101ms
+PASS: Expected 48188168.100381 got 48188168.100381
+---------------------------
+Running test: -filesize=40KB -packetsize=1KB -acksize=50B -bandwidth=10mbps -rtt=7ms
+PASS: Expected 0.314368 got 0.314368
+---------------------------
+Running test: -filesize=10MB -packetsize=1000B -acksize=100B -bandwidth=100gbps -rtt=150ms
+PASS: Expected 1572.900923 got 1572.900923
+---------------------------
+Running test: -filesize=10MB -bandwidth=100gbps -rtt=50ms
+PASS: Correct error message for input '-filesize=10MB -bandwidth=100gbps -rtt=50ms'.
+---------------------------
+Running test: -filesize=40B -packetsize=40B -rtt=40ms
+PASS: Correct error message for input '-filesize=40B -packetsize=40B -rtt=40ms'.
+---------------------------

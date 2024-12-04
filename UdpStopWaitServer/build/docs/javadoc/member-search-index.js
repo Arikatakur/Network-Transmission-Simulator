@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"il.ac.kinneret.mjmay","c":"StopWaitServer","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"il.ac.kinneret.mjmay","c":"StopWaitServer","l":"StopWaitServer()","u":"%3Cinit%3E()"}];updateSearchResults();
