@@ -1,6 +1,3 @@
-
-# Network Transmission Simulator
-
 ## Overview
 This project simulates network data transmission using the Stop-and-Wait protocol with acknowledgment packets. It includes:
 1. **Theoretical Calculator**: Computes the time required to send a file under ideal conditions.
